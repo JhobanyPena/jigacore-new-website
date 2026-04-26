@@ -16,7 +16,7 @@ const OutstandingCaseStudies = ({ data, showDesc }) => {
                         </div>
                         <div className="lg:w-1/2 h-full lg:absolute top-0 right-0">
                             <div className="bg-img h-full">
-                                <Image width={5000} height={5000} className="w-full h-full object-cover" src={data.thumbImage} alt="JIGACORE - Nuestra esencia" />
+                                <Image width={5000} height={5000} className="w-full h-full object-cover" priority src={data.thumbImage} alt="JIGACORE - Nuestra esencia" />
                             </div>
                         </div>
                     </div>
@@ -27,5 +27,6 @@ const OutstandingCaseStudies = ({ data, showDesc }) => {
 }
 
 export default OutstandingCaseStudies
+
 
 

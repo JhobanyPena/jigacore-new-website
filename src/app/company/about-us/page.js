@@ -1,5 +1,5 @@
 import LayoutOne from "@/components/Layout/LayoutOne";
-import BenefitSeven from "@/components/Sections/Benefit/BenefitSeven";
+import BenefitAboutUs from "@/components/Sections/Benefit/BenefitAboutUs";
 import BrandOne from "@/components/Sections/Brand/BrandOne";
 import HeadingSubpage from "@/components/HeadingSubpage/HeadingSubpage";
 import OutstandingCaseStudies from "@/components/HeadingSubpage/OutstandingCaseStudies";
@@ -17,8 +17,9 @@ export default function AboutUs() {
                 <OutstandingCaseStudies data={data} showDesc />
                 <BrandOne classname={'lg:pt-20 md:pt-14 pt-10 lg:pb-[60px] md:pb-12 py-8 style-subpage'} />
                 <CounterAbout />
-                <BenefitSeven background="bg-linear" />
+                <BenefitAboutUs background="bg-linear" />
             </LayoutOne>
         </>
     );
 }
+
