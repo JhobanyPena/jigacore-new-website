@@ -86,7 +86,7 @@ export default function FooterOne({ classname }) {
                     <i className="icon-instagram text-sm"></i>
                   </Link>
                   <Link className={`item rounded-full w-10 h-10 flex items-center justify-center duration-300 border ${classname ? 'border-surface2 hover:text-black hover:bg-white' : 'border-black hover:bg-black hover:text-white'}`} href="https://api.whatsapp.com/send?phone=573194765755" target="_blank">
-                    <Icon.WhatsappLogo className="text-base" />
+                    <Icon.WhatsappLogo weight="fill" className="text-xl" />
                   </Link>
                 </div>
               </div>
@@ -113,3 +113,5 @@ export default function FooterOne({ classname }) {
     </footer>
   );
 }
+
+

@@ -53,7 +53,7 @@ const ContactOne = ({ classname }) => {
                             <Icon.MapPin className="text-xl" />
                             <span className="body2 pl-3">Transversal 57 #106-08, Bogotá, Colombia</span>
                         </div>
-                        <Link href={'https://api.whatsapp.com/send?phone=573194765755'} target='_blank' className='inline-block underline mt-2'>Escríbenos por WhatsApp</Link>
+                        {/* <Link href={'https://api.whatsapp.com/send?phone=573194765755'} target='_blank' className='inline-block underline mt-2'>Escríbenos por WhatsApp</Link> */}
                     </div>
                     <div className="w-full xl:w-1/3 lg:w-[40%] max-lg:mt-10">
                         <div className="form-block rounded-2xl bg-white py-6 px-7 flex flex-col gap-5">
@@ -106,3 +106,4 @@ const ContactOne = ({ classname }) => {
 }
 
 export default ContactOne
+

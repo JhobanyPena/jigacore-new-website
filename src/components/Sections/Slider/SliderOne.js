@@ -14,7 +14,7 @@ export default function SliderOne({ data, className }) {
               <div className="body2 mt-4">Creamos software, automatización RPA y consultoría estratégica de alto valor para impulsar tu negocio.</div>
             </div>
             <div className="block-button xl:mt-10 mt-6 flex gap-4 flex-wrap">
-              <Link className="button-main" href="/company/about-us">Evaluación Gratuita</Link>
+              {/* <Link className="button-main" href="/company/about-us">Evaluación Gratuita</Link> */}
               <Link className="button-main bg-grey" href="/pages/contact-us">Contáctenos</Link>
             </div>
           </div>
@@ -28,3 +28,4 @@ export default function SliderOne({ data, className }) {
     </section>
   );
 }
+
