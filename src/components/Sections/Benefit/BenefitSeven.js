@@ -1,64 +1,53 @@
-'use client'
-
-import { useState } from "react";
-import Image from "next/image"
-import Link from "next/link"
+import React from 'react'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
-import VideoFrame from "@/components/Other/VideoFrame";
+import Image from "next/image"
 
 const BenefitSeven = ({ classname, background }) => {
-    const [openVideo, setOpenVideo] = useState(false)
-
     return (
         <section className={`section-benefit ${classname}`}>
             <div className="container">
                 <div className={`flex gap-y-8 xl:items-center justify-between max-xl:flex-col sm:p-14 p-6 ${background} rounded-3xl`}>
                     <div className="w-full xl:w-1/2 relative">
-                        <h4 className="heading4">100 Years Of History Serving The Poconos Region</h4>
-                        <div className="bg-img mt-7 video-block relative overflow-hidden rounded-[20px]">
-                            <Image width={5000} height={5000} className="w-full" src="/images/component/about3.png" alt="about3" />
-                            <button
-                                className="icon-play w-[60px] h-[60px] text-white bg-black rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center hover:bg-white hover:text-black duration-300"
-                                onClick={() => setOpenVideo(true)}
-                            >
-                                <Icon.Play weight="fill" className="text-2xl" />
-                            </button>
-                            <span className="text-title text-white absolute left-5 bottom-5">Tony Nguyen, CEO, Bytewave</span>
-                        </div>
+                        <h4 className="heading4">¿Quiénes somos?</h4>
+                        <div className="body2 mt-4">Hace cuatro años, nuestra empresa surgió como respuesta a la creciente demanda de crear un equipo de vanguardia en el ámbito tecnológico. Fundada por dos ingenieros con visión de futuro, nos propusimos construir soluciones que transformen la forma en que las empresas operan.</div>
+                        <div className="body2 mt-4">En los últimos dos años, hemos experimentado un crecimiento asombroso, brindando soluciones tecnológicas de vanguardia a empresas líderes en el mercado colombiano.</div>
+                        <div className="body2 mt-4">Nos enorgullece destacar las habilidades únicas de nuestro equipo diverso, que combina la experiencia de ingenieros expertos con el entusiasmo y el potencial de nuevos talentos, logrando resultados excepcionales en cada proyecto que emprendemos.</div>
+                        {/* <div className="bg-img mt-7 overflow-hidden rounded-[20px]">
+                            <Image width={5000} height={5000} className="w-full" src="/images/component/about3.png" alt="JIGACORE equipo" />
+                        </div> */}
                     </div>
                     <div className="w-full xl:w-1/2 xl:pl-20">
                         <div className="bg-white sm:p-10 p-6 rounded-[20px]">
-                            <h3 className="heading3">Unlock your financial potential today!</h3>
+                            <h3 className="heading3">¿Por qué elegirnos?</h3>
                             <div className="list-feature mt-7">
                                 <div className="flex items-center">
-                                    <Icon.Check className='text-blue text-2xl' />
-                                    <div className="text-title pl-3">Supported by experienced financial experts.</div>
+                                    <Icon.Check className='text-blue text-2xl flex-shrink-0' />
+                                    <div className="text-title pl-3">Equipo multidisciplinario con experiencia comprobada.</div>
                                 </div>
                                 <div className="flex items-center mt-3">
-                                    <Icon.Check className='text-blue text-2xl' />
-                                    <div className="text-title pl-3">Optimizing investment portfolios and assets.</div>
+                                    <Icon.Check className='text-blue text-2xl flex-shrink-0' />
+                                    <div className="text-title pl-3">Enfoque ágil adaptado a las necesidades de cada cliente.</div>
                                 </div>
                                 <div className="flex items-center mt-3">
-                                    <Icon.Check className='text-blue text-2xl' />
-                                    <div className="text-title pl-3">Building stable financial plans for the future.</div>
+                                    <Icon.Check className='text-blue text-2xl flex-shrink-0' />
+                                    <div className="text-title pl-3">Soluciones tecnológicas de vanguardia e innovadoras.</div>
                                 </div>
                                 <div className="flex items-center mt-3">
-                                    <Icon.Check className='text-blue text-2xl' />
-                                    <div className="text-title pl-3">Ensuring financial security through suitable insurance.</div>
+                                    <Icon.Check className='text-blue text-2xl flex-shrink-0' />
+                                    <div className="text-title pl-3">Compromiso con la calidad y la mejora continua.</div>
                                 </div>
                                 <div className="flex items-center mt-3">
-                                    <Icon.Check className='text-blue text-2xl' />
-                                    <div className="text-title pl-3">Optimizing investment portfolios and assets.</div>
+                                    <Icon.Check className='text-blue text-2xl flex-shrink-0' />
+                                    <div className="text-title pl-3">Acompañamiento integral desde la consultoría hasta el soporte.</div>
                                 </div>
                             </div>
-                            <Link className="button-main md:mt-9 mt-7" href="/company/our-teams">Our Services</Link>
                         </div>
                     </div>
                 </div>
             </div>
-
-            {openVideo ? <VideoFrame setOpenVideo={setOpenVideo} /> : <></>}
         </section>
     )
 }
 export default BenefitSeven
+
+
