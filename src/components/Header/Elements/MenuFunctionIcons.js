@@ -2,15 +2,12 @@
 
 import React, { useState } from "react";
 import classNames from "classnames";
-
-import SearchBox from "./SearchBox";
 import MobileNavSidebar from "./MobileNavSidebar";
 import Link from "next/link";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 
 export default function MenuFunctionIcons(props) {
   const hide = props.hide || "";
-  const [showSearch, setShowSearch] = useState(false);
   const [showMobileNav, setShowMobileNav] = useState(false);
 
   return (
@@ -30,17 +27,6 @@ export default function MenuFunctionIcons(props) {
           <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contáctenos</Link>
         </div>
         <div className="list__icons flex items-center">
-          {!hide.includes("search") && (
-            <button
-              className="menu-icon -search flex-shrink-0"
-              onClick={(e) => {
-                e.preventDefault();
-                setShowSearch(true);
-              }}
-            >
-              <Icon.MagnifyingGlass className="text-2xl" />
-            </button>
-          )}
           <button
             className="menu-icon -navbar flex-shrink-0"
             onClick={(e) => {
@@ -50,13 +36,8 @@ export default function MenuFunctionIcons(props) {
           >
             <Icon.List className="text-3xl" />
           </button>
-          {!hide.includes("button") && (
-            <Link href={'/pages/contact-us'} className="button-main max-sm:hidden ml-4">Cotizar</Link>
-          )}
         </div>
       </div>
-      {/* Search input */}
-      <SearchBox showSearch={showSearch} setShowSearch={setShowSearch} />
       {/* Mobile navigation sidebar */}
       <MobileNavSidebar
         showMobileNav={showMobileNav}

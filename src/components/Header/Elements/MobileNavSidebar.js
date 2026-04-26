@@ -3,14 +3,9 @@ import { CSSTransition } from "react-transition-group";
 
 import ClientOnlyPortal from "../../../common/ClientOnlyPortal";
 import NavigatorMobile from "./NavigatorMobile";
-import SocialIcons from "../../Other/SocialIcons";
-import Select from "../../Control/Select";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 
 export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
-  const [searchInput, setSearchInput] = useState("");
-  const [currency, setCurrency] = useState("USD");
-  const [language, setLanguage] = useState("ENG");
   return (
     <>
       <ClientOnlyPortal selector="#nav-sidebar">
@@ -21,22 +16,16 @@ export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
           classNames="cart-sidebar"
         >
           <div className="navigation-sidebar">
-            <div className="search-box">
-              <form>
-                <input
-                  type="text"
-                  placeholder="What are you looking for?"
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                />
-                <button>
-                  <Icon.MagnifyingGlass className="text-lg" />
-                </button>
-              </form>
-            </div>
             <NavigatorMobile />
             <div className="navigation-sidebar__footer">
-              <a className="navigation-sidebar__footer__auth">Login/Register</a>
+              <div className="flex items-center gap-2 mt-4">
+                <Icon.PhoneCall className="text-lg" />
+                <span className="caption1">+57 319 476 5755</span>
+              </div>
+              <div className="flex items-center gap-2 mt-2">
+                <Icon.Envelope className="text-lg" />
+                <span className="caption1">contactenos@jigacore.com</span>
+              </div>
             </div>
           </div>
         </CSSTransition>
