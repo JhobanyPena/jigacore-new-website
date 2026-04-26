@@ -8,19 +8,21 @@ import Image from "next/image";
 import Link from "next/link";
 
 const logos = [
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png",
-  "/images/brand/brand.png"
+  { src: "/images/brand/jigacore-partner-microsoft.png", alt: "Microsoft" },
+  { src: "/images/brand/jigacore-partner-odoo.png", alt: "Odoo" },
+  { src: "/images/brand/jigacore-partner-rocketbot.png", alt: "Rocketbot" },
+  { src: "/images/brand/jigacore-cliente-acac.png", alt: "ACAC" },
+  { src: "/images/brand/jigacore-cliente-qvision.png", alt: "Q-Vision" },
+  { src: "/images/brand/jigacore-cliente-ins.png", alt: "INS" },
+  { src: "/images/brand/jigacore-cliente-digitalbank.png", alt: "DigitalBank" },
+  { src: "/images/brand/jigacore-cliente-inbiotech.png", alt: "InBiotech" },
 ]
 
 export default function BrandOne({ classname }) {
   return (
     <section className={`section-brand ${classname}`}>
       <div className="container">
-        <h5 className="heading5 text-center">Trusted by specialists all around the world</h5>
+        <h5 className="heading5 text-center">Partners y clientes que confían en nosotros</h5>
         <div className="flex items-center justify-center mt-7">
           <div className="list lg:w-11/12 w-full">
             <Swiper
@@ -54,7 +56,7 @@ export default function BrandOne({ classname }) {
               {logos.map((logo, index) => (
                 <SwiperSlide key={index}>
                   <Link href={'#!'} scroll={false} className="brand-item flex items-center justify-center">
-                    <Image width={4000} height={3000} src={logo} alt="1" className="lg:h-[44px] h-9 w-auto" />
+                    <Image width={4000} height={3000} src={logo.src} alt={logo.alt} className="lg:h-[44px] h-9 w-auto" />
                   </Link>
                 </SwiperSlide>
               ))}

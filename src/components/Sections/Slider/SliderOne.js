@@ -10,17 +10,17 @@ export default function SliderOne({ data, className }) {
         <div className="flex max-xl:flex-col-reverse gap-8">
           <div className="xl:w-1/3 w-full xl:pr-[15px]">
             <div className="text">
-              <h2 className="heading2 xl:pr-[55px]">IT services for small to mid-Sized companies</h2>
-              <div className="body2 mt-4">We provide custom software solutions for any industry. Creating high - value software and technology for your business.</div>
+              <h2 className="heading2 xl:pr-[55px]">Servicios de TI a la Medida de Tu Empresa</h2>
+              <div className="body2 mt-4">Creamos software, automatización RPA y consultoría estratégica de alto valor para impulsar tu negocio.</div>
             </div>
             <div className="block-button xl:mt-10 mt-6 flex gap-4 flex-wrap">
-              <Link className="button-main" href="/company/about-us">Get a Free Assessment</Link>
-              <Link className="button-main bg-grey" href="/pages/contact-us">Contact</Link>
+              <Link className="button-main" href="/company/about-us">Evaluación Gratuita</Link>
+              <Link className="button-main bg-grey" href="/pages/contact-us">Contáctenos</Link>
             </div>
           </div>
           <div className="xl:w-2/3 w-full xl:pl-[15px]">
             <div className="bg-img w-full rounded-xl overflow-hidden max-sm:h-[300px]">
-              <Image width={5000} height={5000} className="w-full max-sm:h-full object-cover" src="/images/slider/slider1.png" alt="slider1" />
+              <Image width={5000} height={5000} className="w-full max-sm:h-full object-cover" src="/images/slider/slider1.png" alt="JIGACORE servicios de TI" />
             </div>
           </div>
         </div>

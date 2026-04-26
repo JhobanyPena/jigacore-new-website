@@ -2,181 +2,181 @@
     {
         "id": "1",
         "icon": "icon-phone-sync",
-        "title": "Managed IT Services",
-        "desc": "Outsourcing IT management and maintenance, including network monitoring, data backup, cybersecurity, help desk support."
+        "title": "Desarrollo de Software",
+        "desc": "Soluciones de software a la medida para cubrir las necesidades específicas de tu negocio."
     },
     {
         "id": "2",
         "icon": "icon-user-sync",
-        "title": "IT Consulting",
-        "desc": "Strategic guidance on IT strategy, digital transformation, software implementation, and project management."
+        "title": "Automatización RPA",
+        "desc": "Automatiza procesos repetitivos con robots de software para ganar eficiencia y reducir errores."
     },
     {
         "id": "3",
         "icon": "icon-device-cloud",
-        "title": "Cloud Computing",
-        "desc": "Access to remote servers and infrastructure for data storage, application hosting, and scalable resources."
+        "title": "BPO IT",
+        "desc": "Tercerización de procesos de TI con personal calificado y gestión profesional."
     },
     {
         "id": "4",
         "icon": "icon-cloud-dots",
-        "title": "Cybersecurity Solutions",
-        "desc": "Protecting businesses from cyber threats through measures like network security, encryption, and training."
+        "title": "Consultoría Estratégica",
+        "desc": "Orientación estratégica en transformación digital, implementación y gestión de proyectos."
     },
     {
         "id": "5",
         "icon": "icon-phone-cloud",
-        "title": "Data Analytics",
-        "desc": "Services for data storage, backup, integration, governance, and analytics to drive insights and informed decisions."
+        "title": "Apps Móviles",
+        "desc": "Diseño y desarrollo de aplicaciones móviles nativas e híbridas para iOS y Android."
     },
     {
         "id": "6",
         "icon": "icon-device-sync",
-        "title": "Software Development",
-        "desc": "Custom software development and integration services to meet specific business needs."
+        "title": "Plataformas Digitales",
+        "desc": "Creación de plataformas web escalables, portales y sistemas integrados para tu operación."
     },
     {
         "id": "7",
         "icon": "Bank",
-        "title": "Finance & Banking",
-        "desc": "Outsourcing IT management and maintenance, including network monitoring, data backup, cybersecurity, help desk support."
+        "title": "Arquitectura Empresarial",
+        "desc": "Diseño de arquitecturas de TI alineadas con los objetivos estratégicos de tu organización."
     },
     {
         "id": "8",
         "icon": "Rocket",
-        "title": "Information Technology & Telecommunications",
-        "desc": "Strategic guidance on IT strategy, digital transformation, software implementation, and project management."
+        "title": "DevOps y Cloud",
+        "desc": "Implementación de prácticas DevOps y migración a la nube para mayor agilidad y escalabilidad."
     },
     {
         "id": "9",
         "icon": "FirstAidKit",
-        "title": "Healthcare & Pharmaceuticals",
-        "desc": "Access to remote servers and infrastructure for data storage, application hosting, and scalable resources."
+        "title": "Sector Salud",
+        "desc": "Soluciones tecnológicas especializadas para el sector salud y farmacéutico."
     },
     {
         "id": "10",
         "icon": "AirplaneTakeoff",
-        "title": "Transportation & Logistics",
-        "desc": "Protecting businesses from cyber threats through measures like network security, encryption, and training."
+        "title": "Logística y Transporte",
+        "desc": "Sistemas de gestión y optimización para operaciones logísticas y de transporte."
     },
     {
         "id": "11",
         "icon": "Warehouse",
-        "title": "Real Estate",
-        "desc": "Services for data storage, backup, integration, governance, and analytics to drive insights and informed decisions."
+        "title": "Sector Financiero",
+        "desc": "Soluciones de TI para banca, seguros y servicios financieros con altos estándares."
     },
     {
         "id": "12",
         "icon": "Wrench",
-        "title": "Manufacturing & Industry 4.0",
-        "desc": " Custom software development and integration services to meet specific business needs."
+        "title": "Manufactura e Industria",
+        "desc": "Transformación digital para procesos de manufactura e industria 4.0."
     },
     {
         "id": "13",
         "icon": "Basket",
-        "title": "Education & Training",
-        "desc": "Access to remote servers and infrastructure for data storage, application hosting, and scalable resources."
+        "title": "Educación",
+        "desc": "Plataformas y herramientas tecnológicas para instituciones educativas."
     },
     {
         "id": "14",
         "icon": "LightbulbFilament",
-        "title": "Energy & Environment",
-        "desc": "Protecting businesses from cyber threats through measures like network security, encryption, and training."
+        "title": "Energía y Ambiente",
+        "desc": "Soluciones digitales para empresas del sector energético y medioambiental."
     },
     {
         "id": "15",
         "icon": "GraduationCap",
-        "title": "E-commerce & Retail",
-        "desc": "Services for data storage, backup, integration, governance, and analytics to drive insights and informed decisions."
+        "title": "Comercio y Retail",
+        "desc": "E-commerce, puntos de venta y sistemas de gestión para el comercio minorista."
     },
     {
         "id": "16",
         "icon": "YoutubeLogo",
-        "title": "Entertainment and Media",
-        "desc": "Custom software development and integration services to meet specific business needs."
+        "title": "Medios y Entretenimiento",
+        "desc": "Desarrollo de plataformas digitales para medios de comunicación y entretenimiento."
     },
     {
         "id": "17",
         "icon": "icon-coin-user",
-        "title": "Business Strategy Analysis",
-        "desc": "Crafting strategic pathways through comprehensive market analysis to achieve business objectives."
+        "title": "Análisis de Estrategia",
+        "desc": "Diseño de rutas estratégicas mediante análisis de mercado para alcanzar tus objetivos."
     },
     {
         "id": "18",
         "icon": "icon-user-time",
-        "title": "Project Management",
-        "desc": "Ensuring successful project execution by expertly managing timelines, resources, and deliverables."
+        "title": "Gestión de Proyectos",
+        "desc": "Ejecución exitosa de proyectos gestionando tiempos, recursos y entregables."
     },
     {
         "id": "19",
         "icon": "icon-hand-up",
-        "title": "Operational Optimization",
-        "desc": "Enhancing performance by streamlining processes, boosting efficiency, and reducing expenditures."
+        "title": "Optimización Operativa",
+        "desc": "Mejora del rendimiento optimizando procesos, eficiencia y reduciendo costos."
     },
     {
         "id": "20",
         "icon": "icon-device-cloud",
-        "title": "Digital Consulting",
-        "desc": "Navigating the digital landscape, from system enhancements to transformative tech solutions."
+        "title": "Consultoría Digital",
+        "desc": "Navegamos el panorama digital, desde mejoras de sistemas hasta soluciones transformadoras."
     },
     {
         "id": "21",
         "icon": "icon-target-chart",
-        "title": "Marketing Strategy",
-        "desc": "Developing impactful marketing blueprints, leveraging market insights for effective campaigns."
+        "title": "Estrategia de Marketing",
+        "desc": "Planes de marketing de impacto, aprovechando insights del mercado para campañas efectivas."
     },
     {
         "id": "22",
         "icon": "icon-user-chart",
-        "title": "Leadership Development",
-        "desc": "Cultivating top-tier leadership skills for managerial excellence and elevated performance."
+        "title": "Desarrollo de Liderazgo",
+        "desc": "Formación de habilidades de liderazgo para excelencia gerencial y alto desempeño."
     },
     {
         "id": "23",
         "icon": "icon-coin-user",
-        "title": "Business Strategy",
-        "desc": "Develop long-term plans and make informed decisions to drive corporate growth and competitiveness."
+        "title": "Estrategia de Negocio",
+        "desc": "Planes a largo plazo y decisiones informadas para impulsar crecimiento y competitividad."
     },
     {
         "id": "24",
         "icon": "icon-hand-up",
-        "title": "Financial Advisory",
-        "desc": "Maximize your finances with expert Financial Advisory. Smart strategies for saving, investing, debt, retirement, and asset protection."
+        "title": "Asesoría Financiera",
+        "desc": "Maximiza tus finanzas con estrategias de inversión, ahorro y protección de activos."
     },
     {
         "id": "25",
         "icon": "icon-user-sync",
-        "title": "HR Consulting",
-        "desc": "Optimize talent acquisition, employee development, performance management, and organizational design."
+        "title": "Consultoría de RRHH",
+        "desc": "Optimización de talento, desarrollo de empleados y diseño organizacional."
     },
     {
         "id": "26",
         "icon": "icon-device-cloud",
-        "title": "IT Solutions",
-        "desc": "Leverage technology for efficient business processes, enhanced cybersecurity, digital transformation innovation."
+        "title": "Soluciones de TI",
+        "desc": "Tecnología para procesos eficientes, ciberseguridad e innovación digital."
     },
     {
         "id": "27",
         "icon": "icon-chart",
-        "title": "Search Engine Optimization",
-        "desc": "Enhancing your website's visibility on search engines to attract organic traffic and improve search rankings."
+        "title": "Posicionamiento SEO",
+        "desc": "Mejoramos la visibilidad de tu sitio web en buscadores para atraer tráfico orgánico."
     },
     {
         "id": "28",
         "icon": "icon-sms",
-        "title": "Social Media Marketing",
-        "desc": "Creating and managing engaging social media campaigns to connect with your audience, increase brand awareness."
+        "title": "Marketing en Redes",
+        "desc": "Campañas en redes sociales para conectar con tu audiencia y aumentar tu marca."
     },
     {
         "id": "29",
         "icon": "icon-notification",
-        "title": "Pay-Per-Click Advertising",
-        "desc": "Running targeted advertising campaigns on platforms like Google Ads to drive immediate traffic and conversions."
+        "title": "Publicidad Digital",
+        "desc": "Campañas de publicidad en Google Ads y plataformas digitales para tráfico inmediato."
     },
     {
         "id": "30",
         "icon": "icon-hand-touch",
-        "title": "Content Marketing",
-        "desc": "Creating valuable and relevant content to attract and engage your target audience, building trust and authority."
+        "title": "Marketing de Contenidos",
+        "desc": "Contenido de valor para atraer a tu audiencia objetivo y generar confianza."
     }
 ]

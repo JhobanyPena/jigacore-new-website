@@ -9,18 +9,18 @@ const ServiceOne = ({ data, start, limit }) => {
             <div className="container">
                 <div className="flex items-center justify-between w-full max-lg:flex-wrap gap-y-4">
                     <div className="xl:w-2/3 lg:w-3/4 w-full">
-                        <div className="tag text-label">What we do</div>
-                        <h3 className="heading3 mt-3">Solve technology problems in every industry that customers need.</h3>
+                        <div className="tag text-label">Qué hacemos</div>
+                        <h3 className="heading3 mt-3">Resolvemos retos tecnológicos en todas las industrias.</h3>
                     </div>
                     <Link className="text-button border-b border-blue inline-block duration-300 hover:text-blue whitespace-nowrap"
                         href={process.env.PUBLIC_URL + "/services/[slug]"}
                         as={
                             process.env.PUBLIC_URL +
                             "/services/" +
-                            convertToSlug('Managed IT Services')
+                            convertToSlug('Desarrollo de Software')
                         }
                     >
-                        View All industries
+                        Ver todas las industrias
                     </Link>
                 </div>
                 <div className="grid md:grid-cols-2 lg:gap-7 gap-5 md:gap-y-4 gap-y-5 mt-10">
