@@ -1,60 +1,28 @@
 [
-  {
-    "title": "Inicio",
-    "to": "/"
-  },
-  {
-    "title": "Sobre Nosotros",
-    "to": "/company/about-us"
-  },
-  {
-    "title": "Servicios",
-    "to": "#!",
-    "subMenu": [
-      {
-        "title": "Desarrollo de Software",
-        "to": "/services/desarrollo-de-software",
-        "icon": "icon-phone-sync"
-      },
-      {
-        "title": "Automatización RPA",
-        "to": "/services/automatizacion-rpa",
-        "icon": "icon-user-sync"
-      },
-      {
-        "title": "BPO IT",
-        "to": "/services/bpo-it",
-        "icon": "icon-device-cloud"
-      },
-      {
-        "title": "Consultoría Estratégica",
-        "to": "/services/consultoria-estrategica",
-        "icon": "icon-cloud-dots"
-      },
-      {
-        "title": "Apps Móviles",
-        "to": "/services/apps-moviles",
-        "icon": "icon-phone-cloud"
-      },
-      {
-        "title": "Plataformas Digitales",
-        "to": "/services/plataformas-digitales",
-        "icon": "icon-device-sync"
-      },
-      {
-        "title": "Arquitectura Empresarial",
-        "to": "/services/arquitectura-empresarial",
-        "icon": "icon-coin-user"
-      },
-      {
-        "title": "DevOps y Cloud",
-        "to": "/services/devops-y-cloud",
-        "icon": "icon-hand-up"
-      }
-    ]
-  },
-  {
-    "title": "Contáctenos",
-    "to": "/pages/contact-us"
-  }
+    {
+        "title": "Inicio",
+        "to": "/"
+    },
+    {
+        "title": "Sobre Nosotros",
+        "to": "/company/about-us"
+    },
+    {
+        "title": "Servicios",
+        "to": "#!",
+        "subMenu": [
+            { "title": "Desarrollo de Software", "to": "/services/desarrollo-de-software", "icon": "icon-device-cloud" },
+            { "title": "Automatización con RPA", "to": "/services/automatizacion-con-rpa", "icon": "icon-phone-sync" },
+            { "title": "BPO IT", "to": "/services/bpo-it", "icon": "icon-user-sync" },
+            { "title": "Consultoría Estratégica", "to": "/services/consultoria-estrategica", "icon": "icon-coin-user" },
+            { "title": "Desarrollo de Apps Móviles", "to": "/services/desarrollo-de-apps-moviles", "icon": "icon-phone-cloud" },
+            { "title": "Arquitectura Empresarial", "to": "/services/arquitectura-empresarial", "icon": "icon-hand-up" },
+            { "title": "DevOps", "to": "/services/devops", "icon": "icon-cloud-dots" },
+            { "title": "Plataformas", "to": "/services/plataformas", "icon": "icon-device-sync" }
+        ]
+    },
+    {
+        "title": "Contáctenos",
+        "to": "/pages/contact-us"
+    }
 ]

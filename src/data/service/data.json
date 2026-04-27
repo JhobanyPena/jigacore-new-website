@@ -1,182 +1,139 @@
 [
     {
         "id": "1",
-        "icon": "icon-phone-sync",
+        "icon": "icon-device-cloud",
         "title": "Desarrollo de Software",
-        "desc": "Soluciones de software a la medida para cubrir las necesidades específicas de tu negocio."
+        "desc": "Creamos soluciones digitales personalizadas que impulsan tu negocio hacia el futuro.",
+        "heroTitle": "Fábrica de Software",
+        "heroHighlight": "Tu visión, nuestra tecnología",
+        "heroDesc": "¡Transforma tus ideas en realidad con nuestra fábrica de software! Somos maestros en la creación de soluciones digitales personalizadas que impulsan tu negocio hacia el futuro. Con nuestra experiencia en desarrollo de vanguardia, te brindamos las herramientas para innovar, competir y triunfar en el mundo digital.",
+        "heroSubline": "Creamos soluciones integrales, ágiles y adaptables a las necesidades de su negocio.",
+        "features": [
+            { "title": "Diseño a medida", "desc": "Creamos soluciones de software totalmente personalizadas para satisfacer tus necesidades específicas." },
+            { "title": "Entrega a tiempo", "desc": "Cumplimos con plazos ajustados sin comprometer la calidad." },
+            { "title": "Calidad sin compromisos", "desc": "Utilizamos las mejores prácticas de desarrollo para garantizar la excelencia y la seguridad en cada proyecto." },
+            { "title": "Equipo de expertos", "desc": "Contamos con un equipo altamente capacitado de desarrolladores, arquitectos, seguridad, QA, infraestructura y diseñadores UX/UI." },
+            { "title": "Infraestructura Cloud", "desc": "Utilizamos los mejores proveedores de infraestructura que nos garantiza una disponibilidad del 99,8%." },
+            { "title": "Soporte continuo", "desc": "Nuestra relación no termina con la entrega; ofrecemos soporte post-lanzamiento para asegurarnos de que tu software siga funcionando sin problemas." }
+        ]
     },
     {
         "id": "2",
-        "icon": "icon-user-sync",
-        "title": "Automatización RPA",
-        "desc": "Automatiza procesos repetitivos con robots de software para ganar eficiencia y reducir errores."
+        "icon": "icon-phone-sync",
+        "title": "Automatización con RPA",
+        "desc": "Eliminamos tareas repetitivas y liberamos el tiempo de tu equipo para tareas estratégicas.",
+        "heroTitle": "Automatización por medio de RPA",
+        "heroHighlight": "Automatiza hoy, lidera mañana",
+        "heroDesc": "¡Libera el potencial de tu negocio con nuestra solución de Automatización Robótica de Procesos (RPA)! Transformamos la eficiencia operativa al eliminar tareas repetitivas y liberar el tiempo de tu equipo para tareas estratégicas. Nuestra tecnología avanzada y personalización experta impulsarán tu productividad, reducirán costos y mejorarán la precisión.",
+        "heroSubline": "¡Descubre cómo nuestra RPA puede revolucionar tu negocio y llevarte al siguiente nivel de éxito!",
+        "features": [
+            { "title": "Calidad", "desc": "Mejoramos y automatizamos sus procesos, generando oportunidad, calidad y confiabilidad que se ve reflejado en sus clientes." },
+            { "title": "Mejoramiento de procesos", "desc": "Levantamos, analizamos y diseñamos un mejor proceso generando valor a la organización." },
+            { "title": "Digitalización", "desc": "Analizamos las actividades/archivos/procesos donde se generan captura o salida de información, para evaluar si son candidatos para digitalizarlos de manera óptima." },
+            { "title": "Automatización por RPA", "desc": "Construimos asistentes virtuales con el fin de eliminar las tareas repetitivas y sin valor de un proceso, liberando tiempos de personal." }
+        ]
     },
     {
         "id": "3",
-        "icon": "icon-device-cloud",
+        "icon": "icon-user-sync",
         "title": "BPO IT",
-        "desc": "Tercerización de procesos de TI con personal calificado y gestión profesional."
+        "desc": "Te encontramos y administramos al mejor personal para tu área de IT o para tus proyectos.",
+        "heroTitle": "Business Process Outsourcing IT",
+        "heroHighlight": "El talento que tu equipo necesita",
+        "heroDesc": "Nuestro servicio de BPO de talento tecnológico es la llave que necesitas para desbloquear tu potencial. Te ofrecemos un equipo de expertos altamente capacitados y especializados en tecnología, listos para impulsar tus proyectos hacia el éxito. Con nosotros, puedes concentrarte en lo que mejor haces, mientras nosotros reclutamos, desarrollamos y gestionamos el mejor talento para tu empresa.",
+        "heroSubline": "Te encontramos y administramos al mejor personal para tu área de IT o para tus proyectos.",
+        "features": [
+            { "title": "Profesionalismo", "desc": "Poseemos un proceso de selección muy riguroso, donde garantizamos las habilidades técnicas como también las blandas, con el fin que la persona pueda conectar con el equipo y cultura de la empresa." },
+            { "title": "Disponibilidad", "desc": "Asumimos la indisponibilidad del personal porque sabemos lo importante que el tiempo para tu empresa." },
+            { "title": "Capacitación", "desc": "Nuestro proceso de capacitación de nuevas herramientas y habilidades enriquecen continuamente a nuestros colaboradores, brindando un crecimiento en la persona, así como también en la empresa." }
+        ]
     },
     {
         "id": "4",
-        "icon": "icon-cloud-dots",
+        "icon": "icon-coin-user",
         "title": "Consultoría Estratégica",
-        "desc": "Orientación estratégica en transformación digital, implementación y gestión de proyectos."
+        "desc": "Potenciamos la innovación con Diseño Estratégico basado en Design Thinking.",
+        "heroTitle": "Consultoría en Diseño Estratégico",
+        "heroHighlight": "Diseño estratégico con propósito",
+        "heroDesc": "Potencia la innovación con nuestra Consultoría en Diseño Estratégico basada en Design Thinking. Transformamos tus ideas en soluciones efectivas y atractivas para cautivar a tus clientes y destacar en tu industria. ¡Descubre el camino hacia el éxito a través del diseño estratégico!",
+        "heroSubline": "La consultoría en Diseño Estratégico basada en Design Thinking se desarrolla a través de una serie de pasos y enfoques colaborativos.",
+        "features": [
+            { "title": "Comprensión del Contexto Empresarial", "desc": "Inmersión profunda en el contexto de tu empresa: objetivos, desafíos, competidores, mercado y público objetivo." },
+            { "title": "Definición del Problema", "desc": "Identificamos claramente el problema o desafío que tu empresa desea abordar con objetivos específicos e indicadores clave." },
+            { "title": "Investigación y Empatía", "desc": "Investigación extensa y empatía con los usuarios finales mediante entrevistas, encuestas, observación y análisis de datos." },
+            { "title": "Ideación y Generación de Soluciones", "desc": "Sesiones de lluvia de ideas y talleres de ideación para generar una amplia gama de soluciones posibles." },
+            { "title": "Prototipado", "desc": "Creamos prototipos de las soluciones seleccionadas para obtener retroalimentación rápida y refinamiento continuo." },
+            { "title": "Implementación y Mejora Continua", "desc": "Implementamos la solución con métricas de seguimiento para evaluar el rendimiento y realizar mejoras continuas." }
+        ]
     },
     {
         "id": "5",
         "icon": "icon-phone-cloud",
-        "title": "Apps Móviles",
-        "desc": "Diseño y desarrollo de aplicaciones móviles nativas e híbridas para iOS y Android."
+        "title": "Desarrollo de Apps Móviles",
+        "desc": "Convertimos tu visión en una realidad digital que cautiva a tus usuarios.",
+        "heroTitle": "Desarrollo de Aplicaciones Móviles",
+        "heroHighlight": "Tu app, en las manos correctas",
+        "heroDesc": "Transforma tus ideas en aplicaciones móviles innovadoras con nuestro servicio de desarrollo. En un mundo impulsado por la movilidad, tu presencia en dispositivos móviles es esencial para el éxito. Con nuestro equipo de expertos, convertimos tu visión en una realidad digital que cautiva a tus usuarios y lleva tu negocio al siguiente nivel.",
+        "heroSubline": "Diseño, desarrollo y soporte: todo en un solo equipo.",
+        "features": [
+            { "title": "Diseño impactante", "desc": "Creamos interfaces de usuario atractivas y funcionales que sorprenden a tus usuarios desde el primer toque." },
+            { "title": "Funcionalidad poderosa", "desc": "Desarrollamos aplicaciones robustas y de alto rendimiento que se adaptan a tus necesidades específicas." },
+            { "title": "Optimización para plataformas", "desc": "Nos especializamos en aplicaciones para iOS y Android, garantizando una experiencia perfecta en cada plataforma." },
+            { "title": "Seguridad y confidencialidad", "desc": "Tus datos y la seguridad de tus usuarios son nuestra prioridad." },
+            { "title": "Entrega a tiempo", "desc": "Cumplimos plazos y entregamos resultados de calidad, sin sorpresas." },
+            { "title": "Soporte continuo", "desc": "Estamos a tu lado incluso después del lanzamiento, ofreciendo actualizaciones y soporte técnico." }
+        ]
     },
     {
         "id": "6",
-        "icon": "icon-device-sync",
-        "title": "Plataformas Digitales",
-        "desc": "Creación de plataformas web escalables, portales y sistemas integrados para tu operación."
+        "icon": "icon-hand-up",
+        "title": "Arquitectura Empresarial",
+        "desc": "Construimos un marco integral que impulsa la eficiencia en todos los aspectos de tu negocio.",
+        "heroTitle": "Arquitectura Empresarial",
+        "heroHighlight": "Eficiencia en cada capa de tu negocio",
+        "heroDesc": "Nuestro enfoque va más allá de la simple optimización. Trabajamos para construir un marco integral que impulsa la eficiencia y la efectividad en todos los aspectos de tu negocio. Desde la conceptualización estratégica hasta la implementación técnica, nuestro equipo te guía en cada paso del camino.",
+        "heroSubline": "Descubre cómo podemos potenciar tu negocio, proporcionando soluciones personalizadas que impulsarán el rendimiento y la adaptabilidad de tu organización.",
+        "features": [
+            { "title": "Optimización de procesos", "desc": "Identificamos y mejoramos los procesos internos, eliminando redundancias y aumentando la eficiencia operativa." },
+            { "title": "Alineación estratégica", "desc": "Alineamos las actividades operativas con los objetivos estratégicos de la empresa." },
+            { "title": "Mejora en la toma de decisiones", "desc": "Proporcionamos una visión más clara y completa de la estructura organizativa para decisiones informadas." },
+            { "title": "Reducción de costos", "desc": "Identificamos oportunidades para optimizar recursos, eliminar duplicidades y minimizar costos innecesarios." },
+            { "title": "Mayor adaptabilidad", "desc": "Facilitamos la adaptación a cambios en el entorno empresarial con una estructura flexible y escalable." }
+        ]
     },
     {
         "id": "7",
-        "icon": "Bank",
-        "title": "Arquitectura Empresarial",
-        "desc": "Diseño de arquitecturas de TI alineadas con los objetivos estratégicos de tu organización."
+        "icon": "icon-cloud-dots",
+        "title": "DevOps",
+        "desc": "Implementamos prácticas DevOps para acelerar tus procesos de desarrollo y operaciones.",
+        "heroTitle": "DevOps",
+        "heroHighlight": "Entrega rápida, calidad constante",
+        "heroDesc": "Entendemos la importancia de la colaboración continua entre equipos de desarrollo y operaciones para lograr un despliegue de software más rápido y confiable. Implementamos prácticas DevOps que abarcan la automatización de procesos, la entrega continua y la mejora constante, permitiéndote acelerar el ciclo de vida del desarrollo y mejorar la eficiencia operativa.",
+        "heroSubline": "Con nuestra asesoría, transformamos tu enfoque para lograr una eficiencia óptima en la entrega de soluciones tecnológicas de vanguardia.",
+        "features": [
+            { "title": "Entregas más rápidas", "desc": "Aceleramos el ciclo de vida del desarrollo, permitiendo entregas más rápidas y frecuentes de software." },
+            { "title": "Mayor colaboración", "desc": "Facilitamos la colaboración efectiva entre los equipos de desarrollo y operaciones, eliminando silos." },
+            { "title": "Reducción de errores", "desc": "La automatización de procesos minimiza los errores manuales, mejorando la calidad del software." },
+            { "title": "Eficiencia operativa", "desc": "Optimizamos los procesos operativos para una mejor utilización del tiempo y reducción de costos." },
+            { "title": "Mejora continua", "desc": "Promovemos una cultura de mejora continua, permitiendo la identificación y corrección proactiva de problemas." }
+        ]
     },
     {
         "id": "8",
-        "icon": "Rocket",
-        "title": "DevOps y Cloud",
-        "desc": "Implementación de prácticas DevOps y migración a la nube para mayor agilidad y escalabilidad."
-    },
-    {
-        "id": "9",
-        "icon": "FirstAidKit",
-        "title": "Sector Salud",
-        "desc": "Soluciones tecnológicas especializadas para el sector salud y farmacéutico."
-    },
-    {
-        "id": "10",
-        "icon": "AirplaneTakeoff",
-        "title": "Logística y Transporte",
-        "desc": "Sistemas de gestión y optimización para operaciones logísticas y de transporte."
-    },
-    {
-        "id": "11",
-        "icon": "Warehouse",
-        "title": "Sector Financiero",
-        "desc": "Soluciones de TI para banca, seguros y servicios financieros con altos estándares."
-    },
-    {
-        "id": "12",
-        "icon": "Wrench",
-        "title": "Manufactura e Industria",
-        "desc": "Transformación digital para procesos de manufactura e industria 4.0."
-    },
-    {
-        "id": "13",
-        "icon": "Basket",
-        "title": "Educación",
-        "desc": "Plataformas y herramientas tecnológicas para instituciones educativas."
-    },
-    {
-        "id": "14",
-        "icon": "LightbulbFilament",
-        "title": "Energía y Ambiente",
-        "desc": "Soluciones digitales para empresas del sector energético y medioambiental."
-    },
-    {
-        "id": "15",
-        "icon": "GraduationCap",
-        "title": "Comercio y Retail",
-        "desc": "E-commerce, puntos de venta y sistemas de gestión para el comercio minorista."
-    },
-    {
-        "id": "16",
-        "icon": "YoutubeLogo",
-        "title": "Medios y Entretenimiento",
-        "desc": "Desarrollo de plataformas digitales para medios de comunicación y entretenimiento."
-    },
-    {
-        "id": "17",
-        "icon": "icon-coin-user",
-        "title": "Análisis de Estrategia",
-        "desc": "Diseño de rutas estratégicas mediante análisis de mercado para alcanzar tus objetivos."
-    },
-    {
-        "id": "18",
-        "icon": "icon-user-time",
-        "title": "Gestión de Proyectos",
-        "desc": "Ejecución exitosa de proyectos gestionando tiempos, recursos y entregables."
-    },
-    {
-        "id": "19",
-        "icon": "icon-hand-up",
-        "title": "Optimización Operativa",
-        "desc": "Mejora del rendimiento optimizando procesos, eficiencia y reduciendo costos."
-    },
-    {
-        "id": "20",
-        "icon": "icon-device-cloud",
-        "title": "Consultoría Digital",
-        "desc": "Navegamos el panorama digital, desde mejoras de sistemas hasta soluciones transformadoras."
-    },
-    {
-        "id": "21",
-        "icon": "icon-target-chart",
-        "title": "Estrategia de Marketing",
-        "desc": "Planes de marketing de impacto, aprovechando insights del mercado para campañas efectivas."
-    },
-    {
-        "id": "22",
-        "icon": "icon-user-chart",
-        "title": "Desarrollo de Liderazgo",
-        "desc": "Formación de habilidades de liderazgo para excelencia gerencial y alto desempeño."
-    },
-    {
-        "id": "23",
-        "icon": "icon-coin-user",
-        "title": "Estrategia de Negocio",
-        "desc": "Planes a largo plazo y decisiones informadas para impulsar crecimiento y competitividad."
-    },
-    {
-        "id": "24",
-        "icon": "icon-hand-up",
-        "title": "Asesoría Financiera",
-        "desc": "Maximiza tus finanzas con estrategias de inversión, ahorro y protección de activos."
-    },
-    {
-        "id": "25",
-        "icon": "icon-user-sync",
-        "title": "Consultoría de RRHH",
-        "desc": "Optimización de talento, desarrollo de empleados y diseño organizacional."
-    },
-    {
-        "id": "26",
-        "icon": "icon-device-cloud",
-        "title": "Soluciones de TI",
-        "desc": "Tecnología para procesos eficientes, ciberseguridad e innovación digital."
-    },
-    {
-        "id": "27",
-        "icon": "icon-chart",
-        "title": "Posicionamiento SEO",
-        "desc": "Mejoramos la visibilidad de tu sitio web en buscadores para atraer tráfico orgánico."
-    },
-    {
-        "id": "28",
-        "icon": "icon-sms",
-        "title": "Marketing en Redes",
-        "desc": "Campañas en redes sociales para conectar con tu audiencia y aumentar tu marca."
-    },
-    {
-        "id": "29",
-        "icon": "icon-notification",
-        "title": "Publicidad Digital",
-        "desc": "Campañas de publicidad en Google Ads y plataformas digitales para tráfico inmediato."
-    },
-    {
-        "id": "30",
-        "icon": "icon-hand-touch",
-        "title": "Marketing de Contenidos",
-        "desc": "Contenido de valor para atraer a tu audiencia objetivo y generar confianza."
+        "icon": "icon-device-sync",
+        "title": "Plataformas",
+        "desc": "Soluciones propias: JIGAcademy (E-Learning) y KUXAN LAB (Laboratorio clínico).",
+        "heroTitle": "Nuestras Plataformas",
+        "heroHighlight": "Innovación propia, impacto real",
+        "heroDesc": "En JIGACORE no solo desarrollamos software a medida, también hemos creado plataformas propias que resuelven necesidades reales del mercado. JIGAcademy es nuestra plataforma de educación en línea diseñada para potenciar el aprendizaje empresarial. KUXAN LAB es una plataforma integral en la nube para laboratorios de análisis clínico.",
+        "heroSubline": "Dos productos, un mismo compromiso: innovación con impacto.",
+        "features": [
+            { "title": "JIGAcademy - Cursos intuitivos", "desc": "Diseña itinerarios de aprendizaje personalizados con contenido variado: videos, PDF, Word y Excel." },
+            { "title": "JIGAcademy - Evaluaciones y certificaciones", "desc": "Evaluaciones en línea con opciones múltiples y certificados aprobados por la entidad correspondiente." },
+            { "title": "JIGAcademy - Actividades interactivas", "desc": "Crucigramas, juegos y actividades que hacen el aprendizaje divertido y atractivo." },
+            { "title": "KUXAN LAB - Optimiza tu operación", "desc": "Búsqueda, distribución, organización y optimización de procesos de laboratorio en la nube." },
+            { "title": "KUXAN LAB - Búsqueda inteligente", "desc": "Búsquedas rápidas y precisas de resultados de pruebas y muestras de forma eficiente." },
+            { "title": "KUXAN LAB - Integración con equipos médicos", "desc": "Integración con plataformas de equipos médicos como Becton Dickinson." }
+        ]
     }
 ]
