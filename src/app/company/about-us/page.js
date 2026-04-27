@@ -4,10 +4,15 @@ import BrandOne from "@/components/Sections/Brand/BrandOne";
 import HeadingSubpage from "@/components/HeadingSubpage/HeadingSubpage";
 import OutstandingCaseStudies from "@/components/HeadingSubpage/OutstandingCaseStudies";
 import CounterAbout from "@/components/Sections/Counter/CounterAbout";
-import caseData from '@/data/case-study/data.json'
+
 
 export default function AboutUs() {
-    const data = caseData[3]
+    const data = {
+        title: 'Sobre Nosotros',
+        category: 'JIGACORE',
+        description: 'Hace cuatro años, nuestra empresa surgió como respuesta a la creciente demanda de crear un equipo de vanguardia en el ámbito tecnológico.',
+        thumbImage: '/images/about/about-hero.webp'
+    }
 
     return (
         <>
@@ -22,4 +27,5 @@ export default function AboutUs() {
         </>
     );
 }
+
 
