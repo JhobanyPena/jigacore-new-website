@@ -7,7 +7,7 @@ const ServiceHero = ({ service }) => {
                 <div className="flex max-lg:flex-col items-center justify-between gap-y-10">
                     <div className="lg:w-1/2 lg:pr-10">
                         <div className="bg-img w-full">
-                            <img className="w-full rounded-3xl" src="/images/blog/1290x837.png" alt={service.heroTitle} />
+                            <img className="w-full rounded-3xl" src={service.heroImage} alt={service.heroTitle} />
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:pl-10">
@@ -25,5 +25,6 @@ const ServiceHero = ({ service }) => {
     )
 }
 export default ServiceHero
+
 
 
