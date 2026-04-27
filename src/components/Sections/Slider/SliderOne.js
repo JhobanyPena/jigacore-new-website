@@ -20,7 +20,7 @@ export default function SliderOne({ data, className }) {
           </div>
           <div className="xl:w-2/3 w-full xl:pl-[15px]">
             <div className="bg-img w-full rounded-xl overflow-hidden max-sm:h-[300px]">
-              <Image width={5000} height={5000} className="w-full max-sm:h-full object-cover" src="/images/slider/slider1.png" alt="JIGACORE servicios de TI" />
+              <Image width={5000} height={5000} className="w-full max-sm:h-full object-cover" src="/images/slider/slider1.webp" alt="JIGACORE servicios de TI" />
             </div>
           </div>
         </div>
@@ -28,4 +28,5 @@ export default function SliderOne({ data, className }) {
     </section>
   );
 }
+
 
