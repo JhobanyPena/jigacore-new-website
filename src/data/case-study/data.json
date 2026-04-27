@@ -1,62 +1,63 @@
 [
-  {
-    "id": 1,
-    "title": "Rediseño web para Parapente Paraíso",
-    "description": "Rediseñamos la página web con el objetivo de mejorar la experiencia de usuario y brindar funcionalidades nuevas a los clientes.",
-    "author": "JIGACORE",
-    "category": "Diseño Web",
-    "percent": "100",
-    "brand": "/images/brand/jigacore-cliente-acac.png",
-    "publicDate": "2024-01-15",
-    "thumbImage": "/images/blog/1290x837.png",
-    "coverImage": "/images/blog/1290x837.png"
-  },
-  {
-    "id": 2,
-    "title": "Células ágiles para Componente Serviex",
-    "description": "Partner de talento tecnológico con desarrolladores, QAs, arquitectos y gestores de proyecto para crear soluciones de alta calidad.",
-    "author": "JIGACORE",
-    "category": "BPO IT",
-    "percent": "95",
-    "brand": "/images/brand/jigacore-cliente-qvision.png",
-    "publicDate": "2024-03-10",
-    "thumbImage": "/images/blog/1290x837.png",
-    "coverImage": "/images/blog/1290x837.png"
-  },
-  {
-    "id": 3,
-    "title": "App comercial para Unión Andina",
-    "description": "Soporte y nuevas funcionalidades para la app de asesores comerciales, mejorando la experiencia al estar en campo.",
-    "author": "JIGACORE",
-    "category": "Apps Móviles",
-    "percent": "90",
-    "brand": "/images/brand/jigacore-cliente-ins.png",
-    "publicDate": "2024-05-20",
-    "thumbImage": "/images/blog/1290x837.png",
-    "coverImage": "/images/blog/1290x837.png"
-  },
-  {
-    "id": 4,
-    "title": "Desarrollo y soporte para el INS",
-    "description": "Desarrollamos y soportamos la aplicación del Instituto Nacional de Salud, mejorando funcionalidades e integrando nuevas.",
-    "author": "JIGACORE",
-    "category": "Desarrollo",
-    "percent": "85",
-    "brand": "/images/brand/jigacore-cliente-digitalbank.png",
-    "publicDate": "2024-07-01",
-    "thumbImage": "/images/blog/1290x837.png",
-    "coverImage": "/images/blog/1290x837.png"
-  },
-  {
-    "id": 5,
-    "title": "Integración ERP para Inbiotech",
-    "description": "Mejoramos la integración entre la tienda online y el ERP garantizando la integridad de datos de clientes, pedidos e inventario.",
-    "author": "JIGACORE",
-    "category": "Integración",
-    "percent": "92",
-    "brand": "/images/brand/jigacore-cliente-inbiotech.png",
-    "publicDate": "2024-09-15",
-    "thumbImage": "/images/blog/1290x837.png",
-    "coverImage": "/images/blog/1290x837.png"
-  }
+    {
+        "id": 1,
+        "title": "Parapente Paraíso",
+        "description": "Rediseñamos la página web con el objetivo de mejorar la experiencia de usuario y brindar funcionalidades nuevas a los clientes.",
+        "author": "JIGACORE",
+        "category": "Desarrollo Web",
+        "percent": "100",
+        "brand": "/images/brand/brand.webp",
+        "publicDate": "2023-01-15",
+        "thumbImage": "/images/experiencia/parapente-paraiso.webp",
+        "coverImage": "/images/experiencia/parapente-paraiso.webp"
+    },
+    {
+        "id": 2,
+        "title": "Componente Serviex",
+        "description": "Somos el partner de talentos tecnológico con el fin de crear soluciones innovadoras para sus clientes.",
+        "author": "JIGACORE",
+        "category": "BPO IT",
+        "percent": "95",
+        "brand": "/images/brand/brand.webp",
+        "publicDate": "2023-03-20",
+        "thumbImage": "/images/experiencia/serviex.webp",
+        "coverImage": "/images/experiencia/serviex.webp"
+    },
+    {
+        "id": 3,
+        "title": "Unión Andina",
+        "description": "Brindamos soporte a la aplicación de los asesores comerciales incluyendo nuevas funcionalidades que mejoran la experiencia.",
+        "author": "JIGACORE",
+        "category": "Desarrollo de Software",
+        "percent": "90",
+        "brand": "/images/brand/brand.webp",
+        "publicDate": "2023-06-10",
+        "thumbImage": "/images/experiencia/union-andina.webp",
+        "coverImage": "/images/experiencia/union-andina.webp"
+    },
+    {
+        "id": 4,
+        "title": "Instituto Nacional de Salud",
+        "description": "Desarrollamos y soportamos la aplicación del instituto mejorando funcionalidades e integrando nuevas según las necesidades del negocio.",
+        "author": "JIGACORE",
+        "category": "Desarrollo de Software",
+        "percent": "100",
+        "brand": "/images/brand/brand.webp",
+        "publicDate": "2023-08-05",
+        "thumbImage": "/images/experiencia/instituto-nacional-salud.webp",
+        "coverImage": "/images/experiencia/instituto-nacional-salud.webp"
+    },
+    {
+        "id": 5,
+        "title": "Inbiotech",
+        "description": "Mejoramos la integración entre la tienda online y el ERP garantizando la integridad de los datos de clientes, pedidos e inventario.",
+        "author": "JIGACORE",
+        "category": "Integración",
+        "percent": "85",
+        "brand": "/images/brand/brand.webp",
+        "publicDate": "2023-10-12",
+        "thumbImage": "/images/experiencia/inbiotech.webp",
+        "coverImage": "/images/experiencia/inbiotech.webp"
+    }
 ]
+
