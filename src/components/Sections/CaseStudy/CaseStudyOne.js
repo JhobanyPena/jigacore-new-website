@@ -8,7 +8,7 @@ import CaseStudyItem from '@/components/CaseStudy/CaseStudyItem';
 
 const CaseStudyOne = ({ classname, data, start, limit }) => {
     return (
-        <section className={`case-studies-block ${classname}`}>
+        <section id="nuestra-experiencia" className={`case-studies-block ${classname}`}>
             <div className="container">
                 <div className="flex items-center justify-between w-full max-lg:flex-wrap gap-y-2">
                     <div className="max-lg:w-full">
@@ -51,3 +51,4 @@ const CaseStudyOne = ({ classname, data, start, limit }) => {
 }
 
 export default CaseStudyOne
+
