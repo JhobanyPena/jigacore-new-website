@@ -25,7 +25,7 @@ export default function Home() {
         {/* ServiceOne oculto temporalmente */}
         {/* <ServiceOne data={serviceData} start={6} limit={16} /> */}
         <CaseStudyOne classname={'bg-white lg:mt-0 lg:py-20 sm:py-14 py-10'} data={caseStudyData} start={0} limit={5} />
-        <BrandOne classname={'bg-linear lg:py-20 md:py-14 py-10'} />
+        <BrandOne classname={'bg-white lg:pb-20 md:pb-14 pb-10'} />
         {/* TestimonialOne oculto temporalmente */}
         {/* <TestimonialOne data={testimonialData} /> */}
         <ContactOne classname={'bg-linear-blue'} />
