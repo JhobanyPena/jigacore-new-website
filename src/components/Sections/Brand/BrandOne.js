@@ -11,11 +11,17 @@ const logos = [
   { src: "/images/brand/jigacore-partner-microsoft.png", alt: "Microsoft" },
   { src: "/images/brand/jigacore-partner-odoo.png", alt: "Odoo" },
   { src: "/images/brand/jigacore-partner-rocketbot.png", alt: "Rocketbot" },
-  { src: "/images/brand/jigacore-cliente-acac.png", alt: "ACAC" },
+  { src: "/images/brand/jigacore-partner-kuxan.png", alt: "Kuxan" },
+  { src: "/images/brand/jigacore-partner-serviex.png", alt: "Serviex" },
+  { src: "/images/brand/jigacore-partner-parapente.png", alt: "Parapente" },
+  { src: "/images/brand/jigacore-partner-zalt.png", alt: "Zalt" },
+  { src: "/images/brand/jigacore-cliente-acac.png", alt: "Asociación Colombiana para el Avance de la Ciencia" },
   { src: "/images/brand/jigacore-cliente-qvision.png", alt: "Q-Vision" },
-  { src: "/images/brand/jigacore-cliente-ins.png", alt: "INS" },
+  { src: "/images/brand/jigacore-cliente-ins.png", alt: "Instituto Nacional de Salud" },
   { src: "/images/brand/jigacore-cliente-digitalbank.png", alt: "DigitalBank" },
   { src: "/images/brand/jigacore-cliente-inbiotech.png", alt: "InBiotech" },
+  { src: "/images/brand/jigacore-clienter-unal.png", alt: "Universidad Nacional" },
+  { src: "/images/brand/jigacore-clienter-uandina.png", alt: "Unión Andina" },
 ]
 
 export default function BrandOne({ classname }) {
@@ -67,3 +73,5 @@ export default function BrandOne({ classname }) {
     </section>
   );
 }
+
+
