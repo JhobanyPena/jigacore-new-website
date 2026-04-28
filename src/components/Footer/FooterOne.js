@@ -32,30 +32,30 @@ export default function FooterOne({ classname }) {
                       <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/about-us">Sobre nosotros</Link>
                     </li>
                     <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/company/our-teams">Nuestro equipo</Link>
+                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/#nuestra-experiencia">Nuestra experiencia</Link>
                     </li>
                     <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/blog/blog-grid">Blog</Link>
-                    </li>
-                    <li className="mt-2">
-                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/pages/contact-us">Contacto</Link>
+                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/pages/contact-us">Contáctanos</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="footer-nav-item">
                   <div className="item-heading text-button">Soluciones</div>
                   <ul className="list-nav mt-3">
-                    {serviceData.slice(0, 6).map(item => (
+                    {serviceData.slice(0, 5).map(item => (
                       <li className="mt-2" key={item.id}>
                         <Link className={`caption1 hover-underline ${classname && 'underline-white'}`}
                           href={process.env.PUBLIC_URL + "/services/[slug]"}
                           as={
-                            process.env.PUBLIC_URL + "/services/" + convertToSlug(item.title) + "?id=" + item.id
+                            process.env.PUBLIC_URL + "/services/" + convertToSlug(item.title)
                           }
                         >
                           {item.title}</Link>
                       </li>
                     ))}
+                    <li className="mt-2">
+                      <Link className={`caption1 hover-underline ${classname && 'underline-white'}`} href="/#soluciones">¡Y más...!</Link>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -113,5 +113,6 @@ export default function FooterOne({ classname }) {
     </footer>
   );
 }
+
 
 
