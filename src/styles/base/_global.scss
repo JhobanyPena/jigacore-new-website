@@ -2,35 +2,30 @@
     font-size: 80px;
     line-height: 88px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 
 .heading2 {
     font-size: 56px;
     line-height: 68px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 
 .heading3 {
     font-size: 44px;
     line-height: 52px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 
 .heading4 {
     font-size: 32px;
     line-height: 40px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 
 .heading5 {
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 
 .heading6 {
@@ -43,14 +38,12 @@
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
-    text-transform: capitalize;
 }
 
 .text-button {
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
-    text-transform: capitalize;
 }
 
 .text-button-sm {
@@ -118,7 +111,6 @@
     color: setColor(white);
     background-color: setColor(blue);
     border-radius: 4px;
-    text-transform: capitalize;
     letter-spacing: 1.28px;
     cursor: pointer;
     transition: all ease 0.4s;
@@ -284,3 +276,4 @@
         border-radius: 6px;
     }
 }
+
