@@ -1,6 +1,7 @@
 import LayoutOne from "@/components/Layout/LayoutOne";
 import Link from "next/link";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import ContactUsForm from "@/components/Sections/Contact/ContactUsForm";
 
 export default function ContactUs() {
     return (
@@ -59,37 +60,7 @@ export default function ContactUs() {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:pl-12">
-                            <form className="form-block bg-white rounded-2xl p-10 shadow-xl">
-                                <div className="grid grid-cols-2 gap-6">
-                                    <div className="max-xl:col-span-2 max-lg:col-span-1 max-sm:col-span-2">
-                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" type="text" placeholder="Nombre" required />
-                                    </div>
-                                    <div className="max-xl:col-span-2 max-lg:col-span-1 max-sm:col-span-2">
-                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" type="text" placeholder="Empresa" required />
-                                    </div>
-                                    <div className="col-span-2">
-                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" type="email" placeholder="Correo electrónico" required />
-                                    </div>
-                                    <div className="col-span-2">
-                                        <input className="w-full bg-surface caption1 px-4 py-3 rounded-lg" type="text" placeholder="Teléfono" />
-                                    </div>
-                                    <div className="col-span-2">
-                                        <select className="w-full bg-surface caption1 px-4 py-3 rounded-lg">
-                                            <option value="">¿Cómo podemos ayudarte?</option>
-                                            <option value="Desarrollo de Software">Desarrollo de Software</option>
-                                            <option value="Automatización RPA">Automatización RPA</option>
-                                            <option value="BPO IT">BPO IT</option>
-                                            <option value="Consultoría Estratégica">Consultoría Estratégica</option>
-                                            <option value="Apps Móviles">Apps Móviles</option>
-                                            <option value="Otro">Otro</option>
-                                        </select>
-                                    </div>
-                                    <div className="col-span-2">
-                                        <textarea className="w-full bg-surface caption1 px-4 py-3 rounded-lg" name="message" rows="4" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
-                                    </div>
-                                </div>
-                                <button className="button-main lg:mt-10 mt-7">Enviar Mensaje</button>
-                            </form>
+                            <ContactUsForm />
                         </div>
                     </div>
                 </div>

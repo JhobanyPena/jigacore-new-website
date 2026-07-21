@@ -1,8 +1,51 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import * as Icon from "@phosphor-icons/react/dist/ssr"
 import Link from 'next/link'
 
+const WHATSAPP_PHONE = '573194765755'
+
 const ContactOne = ({ classname }) => {
+    const [status, setStatus] = useState('idle')
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        const form = e.currentTarget
+        const data = new FormData(form)
+
+        // Honeypot: if filled, it's a bot. Pretend success and stop.
+        if (data.get('company_website')) {
+            setStatus('success')
+            form.reset()
+            return
+        }
+
+        setStatus('sending')
+        const payload = {
+            name: data.get('name'),
+            phone: data.get('phone'),
+            email: data.get('companyEmail'),
+            company: data.get('company'),
+            help: data.get('form'),
+            message: data.get('message'),
+            source: 'Inicio - Agenda una consultoría',
+        }
+
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload),
+            })
+            if (!res.ok) throw new Error('request_failed')
+            setStatus('success')
+            form.reset()
+        } catch {
+            setStatus('error')
+        }
+    }
+
     return (
         <section className={`section-contact py-[60px] ${classname}`}>
             <div className="container">
@@ -58,22 +101,22 @@ const ContactOne = ({ classname }) => {
                     <div className="w-full xl:w-1/3 lg:w-[40%] max-lg:mt-10">
                         <div className="form-block rounded-2xl bg-white py-6 px-7 flex flex-col gap-5">
                             <div className="heading5">Agenda una consultoría gratuita</div>
-                            <form className="grid max-lg:grid-cols-2 gap-5 gap-y-2">
+                            <form className="grid max-lg:grid-cols-2 gap-5 gap-y-2" onSubmit={handleSubmit}>
                                 <div className="name w-full max-sm:col-span-2">
                                     <label className="inline-block caption1 text-surface1 pb-2" htmlFor="name">Nombre</label>
-                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="text" id="name" placeholder="" required />
+                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="text" id="name" name="name" placeholder="" required />
                                 </div>
                                 <div className="phone w-full max-sm:col-span-2">
                                     <label className="inline-block caption1 text-surface1 pb-2" htmlFor="phone">Teléfono</label>
-                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="text" id="phone" placeholder="" required />
+                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="text" id="phone" name="phone" placeholder="" required />
                                 </div>
                                 <div className="email w-full max-sm:col-span-2">
                                     <label className="inline-block caption1 text-surface1 pb-2" htmlFor="companyEmail">Correo corporativo</label>
-                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="email" id="companyEmail" placeholder="" required />
+                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="email" id="companyEmail" name="companyEmail" placeholder="" required />
                                 </div>
                                 <div className="organization w-full max-sm:col-span-2">
                                     <label className="inline-block caption1 text-surface1 pb-2" htmlFor="company">Empresa / Organización</label>
-                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="text" id="company" placeholder="" required />
+                                    <input className="w-full bg-white px-4 py-3 rounded border border-outline" type="text" id="company" name="company" placeholder="" required />
                                 </div>
                                 <div className="select w-full max-lg:col-span-2">
                                     <label className="inline-block caption1 text-surface1 pb-2" htmlFor="cate">¿Cómo podemos ayudarte?</label>
@@ -93,8 +136,23 @@ const ContactOne = ({ classname }) => {
                                     <label className="inline-block caption1 text-surface1 pb-2" htmlFor="message">Mensaje</label>
                                     <textarea className="w-full bg-white px-4 py-3 rounded border border-outline display-block" name="message" rows="3" id="message" placeholder="" required></textarea>
                                 </div>
+                                {/* Honeypot anti-spam: hidden from users */}
+                                <input type="text" name="company_website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
                                 <div className="block-button max-lg:col-span-2 mt-3">
-                                    <button className="button-main w-full">Enviar</button>
+                                    <button className="button-main w-full" disabled={status === 'sending'}>
+                                        {status === 'sending' ? 'Enviando…' : 'Enviar'}
+                                    </button>
+                                    {status === 'success' && (
+                                        <p className="caption1 text-green-600 mt-2">¡Gracias! Hemos recibido tu mensaje, te contactaremos pronto.</p>
+                                    )}
+                                    {status === 'error' && (
+                                        <p className="caption1 text-red-600 mt-2">
+                                            No pudimos enviar tu mensaje.{' '}
+                                            <Link href={`https://api.whatsapp.com/send?phone=${WHATSAPP_PHONE}`} target="_blank" rel="noopener noreferrer" className="underline">
+                                                Escríbenos por WhatsApp
+                                            </Link>.
+                                        </p>
+                                    )}
                                 </div>
                             </form>
                         </div>

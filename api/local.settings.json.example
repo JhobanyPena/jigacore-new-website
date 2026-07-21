@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "",
+    "GRAPH_TENANT_ID": "<DIRECTORY_TENANT_ID>",
+    "GRAPH_CLIENT_ID": "<APPLICATION_CLIENT_ID>",
+    "GRAPH_CLIENT_SECRET": "<CLIENT_SECRET_VALUE>",
+    "GRAPH_SENDER": "buzon-remitente@jigacore.com",
+    "CONTACT_RECIPIENT": "buzon-destino@jigacore.com"
+  }
+}
