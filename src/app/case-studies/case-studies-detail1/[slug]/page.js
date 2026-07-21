@@ -9,6 +9,13 @@ import CaseStudyOne from "@/components/Sections/CaseStudy/CaseStudyOne";
 import caseStudyData from "@/data/case-study/data.json"
 import ContactOne from "@/components/Sections/Contact/ContactOne";
 import { getPostByTitle } from "@/common/postSelect";
+import { convertToSlug } from "@/common/utils";
+
+export function generateStaticParams() {
+    return caseStudyData.map((item) => ({
+        slug: convertToSlug(item.title),
+    }));
+}
 
 export default function CaseStudiesDtailOne({ params: { slug } }) {
     // Decode URL

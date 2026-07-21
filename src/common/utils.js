@@ -14,7 +14,14 @@ export function formatSingleNumber(n) {
 
 export function convertToSlug(title, id) {
   const renderId = id ? "-" + id : "";
-  return title ? title.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ /g, "-").toLowerCase() + renderId : "";
+  return title
+    ? title
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") + renderId
+    : "";
 }
 
 export function renderContainer(type) {

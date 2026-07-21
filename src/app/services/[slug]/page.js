@@ -5,6 +5,13 @@ import HeadingSubpage from "@/components/HeadingSubpage/HeadingSubpage";
 import ServiceHero from "@/components/Sections/Service/ServiceHero";
 import ServiceFeatures from "@/components/Sections/Service/ServiceFeatures";
 import { getPostByTitle } from "@/common/postSelect";
+import { convertToSlug } from "@/common/utils";
+
+export function generateStaticParams() {
+    return serviceData.map((item) => ({
+        slug: convertToSlug(item.title),
+    }));
+}
 
 export default function ServiceDetail({ params: { slug } }) {
     const decodedSlug = decodeURIComponent(slug);

@@ -3,6 +3,13 @@ import LayoutDetailOne from "@/components/Blog/LayoutDetailOne";
 import LayoutOne from "@/components/Layout/LayoutOne";
 import BlogTwo from "@/components/Sections/Blog/BlogTwo";
 import blogData from "@/data/blog/data.json";
+import { convertToSlug } from "@/common/utils";
+
+export function generateStaticParams() {
+    return blogData.map((item) => ({
+        slug: convertToSlug(item.title),
+    }));
+}
 
 export default function BlogDetail1({ params: { slug } }) {
     // Decode URL

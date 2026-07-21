@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "navigationFallback": {
+    "rewrite": "/404.html",
+    "exclude": [
+      "/_next/*",
+      "/images/*",
+      "/fonts/*",
+      "/*.{css,js,json,txt,ico,png,jpg,jpeg,gif,svg,webp,woff,woff2,ttf,eot,map}"
+    ]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  },
+  "mimeTypes": {
+    ".json": "application/json",
+    ".webp": "image/webp"
+  }
+}

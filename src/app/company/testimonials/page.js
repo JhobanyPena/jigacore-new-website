@@ -7,7 +7,7 @@ import OutstandingCaseStudies from "@/components/HeadingSubpage/OutstandingCaseS
 import caseData from '@/data/case-study/data.json'
 
 export default function Testimonials() {
-    const data = caseData[10]
+    const data = caseData[10] ?? caseData[0]
 
     return (
         <>
