@@ -17,12 +17,17 @@ export default function MenuFunctionIcons(props) {
       >
         <div className="list__button flex items-center gap-4 pr-10">
           {!hide.includes("phone") && (
-            <div className="flex items-center gap-2 bg-grey px-2.5 py-[5px] rounded-full max-xl:hidden">
+            <Link
+              href="https://api.whatsapp.com/send?phone=573194765755"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-grey px-2.5 py-[5px] rounded-full max-xl:hidden duration-300 hover:bg-blue group"
+            >
               <span className="icon bg-white text-blue w-8 h-8 flex items-center justify-center rounded-full">
                 <Icon.PhoneCall className="text-2xl flex-shrink-0" />
               </span>
-              <span className="text-button text-blue whitespace-nowrap flex-shrink-0">+57 319 476 5755</span>
-            </div>
+              <span className="text-button text-blue whitespace-nowrap flex-shrink-0 group-hover:text-white">+57 319 476 5755</span>
+            </Link>
           )}
           <Link href={'/pages/contact-us'} className="button-main text-button-sm max-sm:hidden">Contáctenos</Link>
         </div>
