@@ -17,7 +17,7 @@ const CounterAbout = () => {
           </div>
           <div className="counter grid md:grid-cols-4 grid-cols-2 gap-y-6 lg:mt-[60px] sm:mt-12 mt-8">
             <div className="counter-item px-5 border-l-2 border-blue">
-              <div className="count-number heading3">4+</div>
+              <div className="count-number heading3">7+</div>
               <div className="body1 mt-1">Años de experiencia</div>
             </div>
             <div className="counter-item px-5 border-l-2 border-blue">
@@ -29,7 +29,7 @@ const CounterAbout = () => {
               <div className="body1 mt-1">Proyectos completados</div>
             </div>
             <div className="counter-item px-5 border-l-2 border-blue">
-              <div className="count-number heading3">30+</div>
+              <div className="count-number heading3">40+</div>
               <div className="body1 mt-1">Profesionales en el equipo</div>
             </div>
           </div>
